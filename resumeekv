@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>* {
+        max-width: 700px;
+        margin: auto;
+      }
+      
+      
+      /*body {
+          min-width: 500px;
+      }*/
+      
+      div {
+        border-radius: 5px;
+      }
+      
+      #header {
+        height: 40px;
+        width: 100%;
+        background-color: #ffcccc;
+        position: fixed;
+        z-index: 1;
+      }
+      
+      #title {
+        margin-left: 3%;
+      }
+      
+      #footer {
+        height: 50px;
+        width: 100%;
+        background-color: #ffcccc;
+        clear: both;
+        position: relative;
+      }
+      
+      .left {
+        height: 1000px;
+        width: 45px;
+        background-color: #e0eeee;
+        float: left;
+        position: fixed;
+      }
+      
+      .right {
+        height: 1000px;
+        width: 45px;
+        background-color: #e0eeee;
+        float: right;
+        position: inherit;
+      }
+      
+      .stuff {
+        display: inline-block;
+        margin-top: 6px;
+        margin-left: 55px;
+        width: 75%;
+        height: 1000px;
+      }
+      
+      p,
+      li {
+        font-family: 'Cormorant Garamond';
+      }
+      
+      .head {
+        font-size: 20px;
+      }
+      
+      #name {
+        font-family: Sacramento;
+        float: right;
+        margin-top: 10px;
+        margin-right: 4%;
+      }
+      
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      
+      @media only screen and (max-width: 430px) {
+        .left,
+        .right {
+          display: none;
+        }
+        .stuff {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Ekansh Verma</title>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="left"></div>
+    <div class="stuff">
+      <br><br>
+      <h1>Resume</h1>
+      <h2>Ekansh Verma</h2>
+      <h5> "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work"</h5>
+      <hr />
+      <br>
+     <b> <p class="head">Interests</p>
+      <ul>
+        <li>Drawing</li>
+        <li>Tech Learning</li>
+        <li>Error Solving</li>
+        <li>Programming</li>
+        <li>Computer Science</li>
+      </ul>
+      <hr/>
+      <p class="head">Skills</p>
+      <ul>
+        <li>Web Design with HTML & CSS</li>
+        <li>Friendly</li>
+        <li>Time Punctual</li>
+      </ul>
+      <hr/>
+      <p class="head">Education</p>
+      <ul>
+        <li>Secondary Passed From Dhruva Public School</li>
+          <li>Studing BTech. From Arya College of Engineering</li>
+        </a>
+        <li>Pursing Traing from Cloud Computing with AI in AWS from Learn and Buld</li>
+      </ul>
+      <hr/>
+      <p class="head">Experience</p>
+      <ul>
+        <li>Robotics Training</li>
+        <li>Carnival Stall Management</li>
+      </ul>
+      <hr/>
+      <p class="head">Extracurriculars</p>
+        <li>Certificate of C,C++,HTML and Robotics</li>
+        <li>Coursera from Google Coursera</li>
+      </ul>
+    </div>
+    <div class="right"></div>
+    <div id="footer">
+    <h2 id="name">Ekansh Verma</h2>
+    </div>
+</body>
+</html>
